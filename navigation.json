@@ -1,0 +1,40 @@
+{
+    "navigation":
+    [
+        {
+            "text": "Home",
+            "target": "index.md",
+            "toc": false
+        },
+      {
+        "text": "acm",
+        "target": "acm/_vnote.json",
+        "navi": true
+      },
+      {
+        "text": "折腾",
+        "target": "折腾折腾/_vnote.json",
+        "navi": true
+      },
+      {
+        "text": "python",
+        "target": "python/_vnote.json",
+        "navi": true
+      },
+      {
+        "text": "notebook",
+        "target": "notebook/_vnote.json",
+        "navi": true
+      }
+
+    ],
+    "actions":
+    [
+        {
+            "text": "Viki",
+            "icon": "css/viki_white.svg",
+            "target": "https://tamlok.github.io/viki/"
+        }
+        
+    ]
+}

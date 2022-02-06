@@ -1,0 +1,99 @@
+vnote_backup_file_826537664 D:/OneDrive/blog.moyechen.cn/acm/cf/CF1315B.md
+#  CF1315B  Homecoming
+
+
+moyechen
+2020-02-24  19:03
+
+## 题意
+小明同学一个人回家, 回家路上有一些车站, 
+
+每次花一个车票钱, 可以走一段连续的当前车站长度的路
+
+小明同学有`p` 块钱, 问小明走到哪个车站开始上车后 ,就可以不用在走路了
+
+终点是最后一个车站
+
+
+
+## 思路
+把连续的车站压缩为一个又一个的点
+具有以下两个属性
+
+- 长度
+- 车票价格
+
+从后往前遍历,当总花费>拥有的钱后停止,输出车站编号
+
+
+## 代码
+
+```c++
+
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+/*
+moyechen
+2020-02-24  19:03
+*/
+
+const int maxn = 5e5 + 5;
+const int inf  = 0x3f3f3f3f;
+
+
+int main() {
+    std::ios::sync_with_stdio(false);
+    cin.tie(0);
+    int t,a,b,p;
+    string s;
+    cin>>t;
+    while (t--)
+    {
+        cin>>a>>b>>p;
+        cin>>s;
+
+        int money = 0;
+
+        int ind = s.size();
+        for (int i = s.size() - 2; i >= 0; i--)
+        {
+            if(i-1>=0 && s[i] == s[i-1])continue;
+
+            if(s[i] == 'B'){
+
+                money += b;
+                                        
+            }else
+            {
+                money += a;
+            }
+
+            if(money < p){
+                ind = i+1;
+                
+            }else if(money == p)
+            {
+                ind = i+1;
+                break;
+            }else
+            {
+                break;
+            }
+
+            
+        }
+        
+        cout<<ind<<endl;
+        
+
+
+    }
+    
+
+    
+    return 0;
+}
+
+```

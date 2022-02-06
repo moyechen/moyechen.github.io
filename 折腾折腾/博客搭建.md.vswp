@@ -1,0 +1,95 @@
+vnote_backup_file_826537664 D:/OneDrive/blog/折腾折腾/博客搭建.md
+# 甲骨文服务器凉凉
+
+
+因此我需要一个新的服务器
+
+
+需求:
+
+- 搭建博客
+    -  同时要提供vnote - onedrive这种方式的 `日记 - 博客` 工作流
+- vpn
+    - 平时使用谷歌服务
+- 内网穿透
+
+
+因此, 可能需要国外服务器才能支持
+
+
+
+博客搭建方案:
+
+1. github/gitee/coding pages
+2. 阿里云，其它云
+3. 虚拟主机
+4. 其它
+5. 阿里云（入口 nginx 转发）+ 腾讯云（应用+数据库）
+6.  github pages + cloudflare
+7. 阿里云->vultr->github pages->netlify
+8. 利用 Gridea 同步到 GitHub，然后再同步到 Netlify http://fehey.com
+9. 本地 N1+frp
+10. cnblogs, csdn (不想)
+
+
+
+
+
+
+大佬的博客:
+
+1. https://www.dute.org/
+2. 
+
+
+
+# 思考
+
+
+
+## 处理笔记的分类方式
+
+### 笔记的中种类:
+
+- 灵感
+- 待办事项
+- 日记
+- 笔记
+- 特殊的( 印象笔记剪藏,马克)
+
+
+
+### 场景
+
+
+
+
+## 找到合适的写日记软件
+
+
+
+# 笔记型博客
+
+
+[MDwiki](http://dynalon.github.io/mdwiki/#!index.md)
+- 适合为开发的应用程序编写wiki
+- 无法实现多层文件夹
+- 具有github风格的markdown渲染器
+- 可使用gimmicks, 以获得例如github-fork带子, 讨论区, 等插件
+
+[vnote-viki](https://github.com/tamlok/viki)
+- 配合vnote,以及onedrive云同步,适更合写笔记
+- 有多层文件夹
+- 渲染风格简陋,但是可以定制化(暂未找到方法)
+
+
+
+## 2020/2/24
+
+使用[drive to web](https://drv.tw/)
+
+[教程](https://www.alexclassroom.com/web-building/webmaster-tool/how-to-build-site-on-onedrive-drivetoweb/)
+
+- 本地使用VNote进行编辑,将笔记文件夹设置到  onedrive 目录下
+- 编辑后自动更新到网站,免去手动同步的麻烦
+

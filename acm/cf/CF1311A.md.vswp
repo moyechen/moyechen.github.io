@@ -1,0 +1,94 @@
+vnote_backup_file_826537664 D:/OneDrive/blog.moyechen.cn/acm/cf/CF1311A.md
+#  CF1311A Add Odd or Subtract Even
+
+
+
+
+## 题意
+每次可以加一个奇数,或者减去一个偶数,问从原数字到目标数字需要几步
+
+## 思路
+
+分几种情况
+
+- 原数为奇数
+    1. 目标数为奇数,且比原数大  需要`2`步
+    2. 目标数为偶数,且比原数大 需要`1`步
+    3. 目标数为奇数,且比原数小 需要 `1`步
+    4. 目标数为偶数,且比原数小 需要 `2`步
+- 原数为偶数
+    1. ...同理
+
+目标数:
+
+- 比原数大
+    - 差为奇数 , 则1步              加上奇数即可
+    - 差为偶数 , 则2步             加上奇数,减去1
+- 比原数小
+    - 差为奇数,则2步         加上1,减去偶数
+    - 差为偶数,则1步             减去偶数
+
+
+## 代码
+
+```c++
+
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+/*
+moyechen
+2020-02-24  22:35
+*/
+
+const int maxn = 5e5 + 5;
+const int inf = 0x3f3f3f3f;
+
+int main()
+{
+    std::ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    int t, x, y;
+    cin >> t;
+    while (t--)
+    {
+        cin >> x >> y;
+
+        if (x == y)
+        {
+            cout << 0 << endl;
+            continue;
+        }
+
+        int c = y - x;
+
+        if (y > x)
+        {
+
+            if (c % 2 == 0)
+            {
+                cout << 2 << endl;
+            }
+            else
+            {
+                cout << 1 << endl;
+            }
+            continue;
+        }
+        c *= -1;
+        if (c % 2 == 0)
+        {
+            cout << 1 << endl;
+        }
+        else
+        {
+            cout << 2 << endl;
+        }
+    }
+
+    return 0;
+}
+
+```

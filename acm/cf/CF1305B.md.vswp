@@ -1,0 +1,97 @@
+vnote_backup_file_826537664 D:/OneDrive/blog.moyechen.cn/acm/cf/CF1305B.md
+#  CF1305B
+
+
+|author|date|
+|--|--|
+|moyechen|2020-0303 23:06|
+
+
+
+## 题意
+
+匹配括号
+
+> 前半部分为`(` ,后半部分为`)` 的序列称之为`simple ` 
+
+从原来的字符串中拿出`simple`这样的子序列,使得剩下的部分不能再拿出
+
+求最少的次数
+然后输出在原序列中的下标
+
+
+## 思路
+
+直接模拟即可
+
+## 代码
+
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+
+
+const int maxn = 5e5 + 5;
+const int inf  = 0x3f3f3f3f;
+
+
+int main() {
+    std::ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    string s;
+    cin>>s;
+
+    vector<int> v1,v2,ans;
+    for (int i = 0; i < s.size(); i++)
+    {
+        if(s[i] == '(')v1.push_back(i);
+        else
+        {
+            v2.push_back(i);
+        }
+    }
+    
+    int q1 = 0, q2 = v2.size() - 1;
+    while (q1 <v1.size() && q2 >=0)
+    {
+        if( v1[q1] < v2[q2] )
+        {
+            ans.push_back(v1[q1]);
+            ans.push_back(v2[q2]);
+            q1++;
+            q2--;
+            
+        }else
+        {
+            break;
+        }
+    }
+
+    if(ans.size() == 0){
+        cout<<0<<endl;
+    }else
+    {
+        sort(ans.begin(),ans.end());
+        cout<<1<<endl;
+        cout<<ans.size()<<endl;
+        for (int i = 0; i < ans.size(); i++)
+        {
+            cout<<ans[i]+1<<" ";
+        }
+        
+    }
+    
+    
+    
+    
+    
+
+    
+    return 0;
+}
+
+
+```
