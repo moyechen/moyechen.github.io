@@ -10,13 +10,19 @@
             "name": "notebook"
         },
         {
-            "name": "折腾折腾"
-        },
-        {
             "name": "python"
         },
         {
             "name": "acm"
+        },
+        {
+            "name": "web"
+        },
+        {
+            "name": "Ops"
+        },
+        {
+            "name": "router"
         }
     ],
     "tags": [

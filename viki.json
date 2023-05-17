@@ -16,6 +16,6 @@
         "image_caption": true,
         "plantuml_server": "https://www.plantuml.com/plantuml",
         "plantuml_format": "svg",
-        "code_block_line_number": false
+        "code_block_line_number": true
     }
 }
