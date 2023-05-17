@@ -3,46 +3,46 @@
     "files": [
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-02-04T12:25:47Z",
-            "modified_time": "2020-02-04T12:27:49Z",
+            "id": "106",
+            "modified_time": "2020-02-04T12:25:47Z",
             "name": "三角形计数.md",
+            "signature": "1732650303505069960",
             "tags": [
             ]
         },
         {
             "attachment_folder": "20200204204256570_12550",
-            "attachments": [
-            ],
             "created_time": "2020-02-04T12:29:04Z",
-            "modified_time": "2020-02-04T12:44:12Z",
+            "id": "107",
+            "modified_time": "2020-02-04T12:29:04Z",
             "name": "2020牛客训练营1.md",
+            "signature": "8448499972007294856",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-02-11T17:17:13Z",
-            "modified_time": "2020-02-12T18:45:04Z",
+            "id": "108",
+            "modified_time": "2020-02-11T17:17:13Z",
             "name": "cf翻译乱码解决.md",
+            "signature": "6147647830755669896",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-02-28T05:54:28Z",
+            "id": "109",
             "modified_time": "2020-02-28T05:54:28Z",
             "name": "PDSU5.MD",
+            "signature": "336581526221518728",
             "tags": [
             ]
         }
     ],
-    "sub_directories": [
+    "folders": [
         {
             "name": "二分"
         },
@@ -65,5 +65,8 @@
             "name": "pta"
         }
     ],
-    "version": "1"
+    "id": "54",
+    "modified_time": "2023-05-17T06:43:19Z",
+    "signature": "7318543949589936007",
+    "version": 3
 }

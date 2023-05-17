@@ -3,16 +3,19 @@
     "files": [
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-02-04T11:56:51Z",
-            "modified_time": "2020-02-04T12:50:27Z",
+            "id": "64",
+            "modified_time": "2020-02-04T11:56:51Z",
             "name": "牛客新生训练营.md",
+            "signature": "2176877435195520903",
             "tags": [
             ]
         }
     ],
-    "sub_directories": [
+    "folders": [
     ],
-    "version": "1"
+    "id": "63",
+    "modified_time": "2023-05-17T06:43:19Z",
+    "signature": "518431051419514759",
+    "version": 3
 }

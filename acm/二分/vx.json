@@ -3,26 +3,29 @@
     "files": [
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-01-30T10:54:58Z",
+            "id": "56",
             "modified_time": "2020-01-30T10:54:58Z",
             "name": "Creative Snap.md",
+            "signature": "586975018611931015",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-01-30T11:08:56Z",
-            "modified_time": "2020-01-30T11:35:57Z",
+            "id": "57",
+            "modified_time": "2020-01-30T11:08:56Z",
             "name": "Obtain The String.md",
+            "signature": "8895530123909166983",
             "tags": [
             ]
         }
     ],
-    "sub_directories": [
+    "folders": [
     ],
-    "version": "1"
+    "id": "55",
+    "modified_time": "2023-05-17T06:43:19Z",
+    "signature": "9062690281134258055",
+    "version": 3
 }

@@ -8,22 +8,32 @@
       },
       {
         "text": "notebook",
-        "target": "notebook/_vnote.json",
+        "target": "notebook/vx.json",
         "navi": true
       },
       {
         "text": "acm",
-        "target": "acm/_vnote.json",
+        "target": "acm/vx.json",
         "navi": true
       },
       {
         "text": "python",
-        "target": "python/_vnote.json",
+        "target": "python/vx.json",
         "navi": true
       },      
       {
         "text": "web",
-        "target": "web/_vnote.json",
+        "target": "web/vx.json",
+        "navi": true
+      },
+      {
+        "text": "ops",
+        "target": "ops/vx.json",
+        "navi": true
+      },
+      {
+        "text": "router",
+        "target": "router/vx.json",
         "navi": true
       }
 
