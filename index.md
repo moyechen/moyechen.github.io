@@ -1,12 +1,13 @@
 这里是菜鸟的个人笔记
 
 
-喜欢折腾(哈哈)
+喜欢折腾，家庭组网，nas等
 
 
-## 编程语言
+## 编程语言、框架
 
 Python
+django，django-rest-framwork
 
 ## 工具使用
 
@@ -14,20 +15,12 @@ mysql, git, linux,elasticsearch,clickhouse
 了解linux,编写shell脚本
 
 
-## 计划
-
-1. 了解mysql binlog ssl，提升跨机房数据链路安全 2022-9-5
-
-2. 以图搜图系统的搭建 2022-9-5
-
-3. web时光机功能，存储博客中引用到的外链 2022-9-5
-
-## 项目经历
+## 工作经历
 
 
-### python爬虫 2019.4.20 - 2020-3
+### python爬虫 2019.4.20 - 2020.3
 
-学习了简单的 python, mysql, linux, git,
+学习了python, mysql, linux, git
 
 通过requests库获取网页源码, 之后按xpath或者正则表达式提取数据, 最后使用pymyslq进行入库
 在linux 服务器上设定crontab 以进行定时爬取
@@ -36,25 +29,51 @@ mysql, git, linux,elasticsearch,clickhouse
 
 
 
-### web 2020.3.15 - 2022.4
+### 安全平台部实习
 
-开发web网站,前端使用Vanilla JS, Vue
+#### 情报平台
+前端使用Vanilla JS, Vue，JQuery，bootstrap
 后端使用python django
 数据库选择了mysql+elastisearch+clickhouse
-中间做过安卓群控，pyspark数据分析
+
+将之前采集到的数据入库，通过logstash输入elastisearch、clickhouse，加快模糊查询、宽表查询
+
+#### 黑产实验室
+
+基于uiautomator2，通过adb链接控制多达25部手机。
+通过thinker绘制桌面gui，实现点击控制手机功能，包括批量加好友、卖茶小妹、股票推荐等恶意场景复现。
+gui和业务功能分层。
+
+#### 老项目维护
+
+php语言，框架为CodeIgniter
 
 
 
-### web 2022-4-20~今
+### 浙江木链物联网科技有限公司 2022.4.20~2023.1.31
 
+#### 项目一：靶场平台
 框架 drf+django
 部署方式 docker
 中间件 pgsql+redis+minio
 虚拟化技术：openstack， k8s
 
+包括竞赛、作业、训练等多个模块的工业互联网靶场平台。
 
 
+#### 项目二：检测平台
+后端框架drf、django
+部署方式：手动部署、镜像部署
+中间件pgsql+redis+celery
+漏扫组件openvas，固件组件binwalk，流量分析suricate
+
+工业互联网检测平台，包括漏洞扫描、固件分析、流量分析等多个功能。
 
 
+### 2023-3~今
 
-
+#### MES系统 
+采用微服务开发，借鉴ddd设计思想，多租户隔离系统
+后端框架fastapi，graphql
+部署方式k8s
+中间件pgsql+redis
