@@ -13,7 +13,10 @@ type XXX{
 
 
 如果你不加的话，则会识别不到
+>http://spec.graphql.org/October2021/#sec-Language
+![](vx_images/514935909278883.png)
 
+![](vx_images/27510892836406.png)
 
 
 ## 2.dataload 问题
