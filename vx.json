@@ -60,6 +60,9 @@
         },
         {
             "name": "router"
+        },
+        {
+            "name": "secret"
         }
     ],
     "id": "1",
