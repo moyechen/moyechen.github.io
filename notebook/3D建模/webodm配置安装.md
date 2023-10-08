@@ -118,6 +118,10 @@ git clone https://github.com/OpenDroneMap/WebODM
 **gpu**
 实际gpu使用率一直没上去，也不知道为啥
 
+**测试数据集**
+
+https://github.com/pierotofy/dataset_banana/tree/master
+
 
 
 
