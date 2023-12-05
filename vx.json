@@ -63,6 +63,9 @@
         },
         {
             "name": "secret"
+        },
+        {
+            "name": "video"
         }
     ],
     "id": "1",

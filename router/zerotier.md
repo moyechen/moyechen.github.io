@@ -86,6 +86,10 @@ sudo iptables -A FORWARD -o zt0 -j ACCEPT
 sudo iptables -t nat -A POSTROUTING  ! -o lo -j MASQUERADE
 ```
 
+>2023 10月16日， 发现这样的规则会导致该设备离线后其他设备不会通过网关访问其他设备，而是通过该设备，很尴尬
+>![](vx_images/424924709279287.png)
+
+
 这里 zt0 为zerotier虚拟网卡
 保存iptable规则
 
