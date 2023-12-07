@@ -1,0 +1,3 @@
+
+let sidebarConfig = {}
+export  {sidebarConfig}
