@@ -4,8 +4,6 @@ import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { sidebarConfig } from './mysidebar.js'
 
-import { createPage } from '@vuepress/core'
-
 
 
 export default {
