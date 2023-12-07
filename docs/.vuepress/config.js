@@ -10,7 +10,10 @@ export default {
     theme: defaultTheme({
       sidebar: sidebarConfig,
       navbar: [
-        // NavbarItem
+        {
+          text: 'python',
+          link: '/python/',
+        },         
         {
           text: 'web',
           link: '/web/',
@@ -30,11 +33,7 @@ export default {
           {
             text: 'video',
             link: '/video/',
-          },     
-          {
-            text: 'python',
-            link: '/python/',
-          },                    
+          },                
       ],
     }),
     plugins: [
