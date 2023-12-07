@@ -59,7 +59,7 @@ def auto_sidebar(tpath, f_path=None) -> dict:
     return l
 
 def readme_main():
-    for n in ["notebook","ops","python","router","video", "web"]:
+    for n in ["notebook","ops","python","router","video", "web", "README.md"]:
         os.system(f"mv {n} docs/{n}")
 
     generate_readme("docs/notebook/")
