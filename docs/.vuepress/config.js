@@ -1,7 +1,7 @@
-import { defaultTheme } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
+import { defaultTheme } from '@vuepress/theme-default'
 import { sidebarConfig } from './mysidebar.js'
 
 
