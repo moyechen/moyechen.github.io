@@ -41,7 +41,7 @@ sudo make uninstall
 rm -rf .config/onedrive
 ```
 
-<span id="pz">
+<span id="pz"></span>
 
 ### 进行配置
 如果不配置, 你Onedrive中的文件默认会下载到 `~/OneDrive`这个目录,并且隐藏的文件会跳过
