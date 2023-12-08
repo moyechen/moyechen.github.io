@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0ad25c3f","path":"/notebook/%E6%98%BE%E5%8D%A1.html","title":"显卡","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"game fps","slug":"game-fps","link":"#game-fps","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"notebook/显卡.md"}');export{e as data};

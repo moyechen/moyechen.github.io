@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cd2572f4","path":"/router/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%A0%B4%E8%A7%A3%E5%A4%A9%E7%BF%BC%E7%BD%91%E5%85%B3.html","title":"记一次破解天翼网关","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"router/记一次破解天翼网关.md"}');export{t as data};

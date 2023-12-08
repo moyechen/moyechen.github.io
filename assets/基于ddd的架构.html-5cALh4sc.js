@@ -1,0 +1,1 @@
+const d=JSON.parse('{"key":"v-d0dc2cca","path":"/web/%E5%9F%BA%E4%BA%8Eddd%E7%9A%84%E6%9E%B6%E6%9E%84.html","title":"基于ddd的架构","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"web/基于ddd的架构.md"}');export{d as data};

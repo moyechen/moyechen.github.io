@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-689f17cc","path":"/python/cv/%E9%83%A8%E7%BD%B2paddle%E6%A1%86%E6%9E%B6%E4%B9%8Bocr.html","title":"部署paddle框架之ocr","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"步骤","slug":"步骤","link":"#步骤","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"python/cv/部署paddle框架之ocr.md"}');export{e as data};

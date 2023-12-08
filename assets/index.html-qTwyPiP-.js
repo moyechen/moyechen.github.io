@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-86c67626","path":"/router/","title":"这里是router","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"router/README.md"}');export{t as data};

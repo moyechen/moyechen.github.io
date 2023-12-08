@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-24dac847","path":"/video/ffmpeg.html","title":"ffmpeg","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"第一个应用 制作延时摄像","slug":"第一个应用-制作延时摄像","link":"#第一个应用-制作延时摄像","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"video/ffmpeg.md"}');export{e as data};

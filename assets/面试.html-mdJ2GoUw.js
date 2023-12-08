@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-27f8a722","path":"/python/%E9%9D%A2%E8%AF%95.html","title":"面试","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"python/面试.md"}');export{t as data};

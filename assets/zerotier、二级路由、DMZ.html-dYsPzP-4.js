@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-70e270ee","path":"/router/zerotier%E3%80%81%E4%BA%8C%E7%BA%A7%E8%B7%AF%E7%94%B1%E3%80%81DMZ.html","title":"zerotier、二级路由、DMZ","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"router/zerotier、二级路由、DMZ.md"}');export{e as data};
