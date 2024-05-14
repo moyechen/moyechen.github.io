@@ -6,12 +6,12 @@
   "author": "moyechen <sages7@126.com>",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-docsearch": "^2.0.0-rc.0",
-    "@vuepress/plugin-medium-zoom": "^2.0.0-rc.0",
-    "@vuepress/plugin-prismjs": "^2.0.0-rc.0",
-    "@vuepress/plugin-search": "^2.0.0-rc.0",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.0",
+    "@vuepress/plugin-medium-zoom": "2.0.0-rc.0",
+    "@vuepress/plugin-prismjs": "2.0.0-rc.0",
+    "@vuepress/plugin-search": "2.0.0-rc.0",
     "@vuepress/theme-default": "2.0.0-rc.0",
-    "vuepress": "^2.0.0-rc.0"
+    "vuepress": "2.0.0-rc.0"
   },
   "scripts": {
     "docs:dev": "python3 auto_readme.py && vuepress dev docs",
