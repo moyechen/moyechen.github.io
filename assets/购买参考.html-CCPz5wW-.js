@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-168cd3a7","path":"/ops/%E8%B4%AD%E4%B9%B0%E5%8F%82%E8%80%83.html","title":"购买参考","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"电池","slug":"电池","link":"#电池","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"ops/购买参考.md"}');export{t as data};

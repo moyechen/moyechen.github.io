@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5a4912c0","path":"/web/web_web%E6%A8%A1%E5%9E%8B.html","title":"[web]web模型","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"web/[web]web模型.md"}');export{e as data};

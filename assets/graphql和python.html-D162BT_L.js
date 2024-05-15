@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4e94c225","path":"/web/graphql/graphql%E5%92%8Cpython.html","title":"graphql和python","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"web/graphql/graphql和python.md"}');export{t as data};

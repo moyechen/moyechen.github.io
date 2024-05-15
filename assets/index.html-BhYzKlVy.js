@@ -1,0 +1,1 @@
+import{_ as t,o as r,c as a,a as e,b as o}from"./app-CFIaTHNp.js";const c={},n=e("h1",{id:"这里是router",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#这里是router","aria-hidden":"true"},"#"),o(" 这里是router")],-1),s=[n];function _(d,i){return r(),a("div",null,s)}const l=t(c,[["render",_],["__file","index.html.vue"]]);export{l as default};

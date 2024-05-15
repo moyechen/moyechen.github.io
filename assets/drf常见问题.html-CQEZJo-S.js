@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-504597da","path":"/web/django/drf%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.html","title":"drf常见问题","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"web/django/drf常见问题.md"}');export{t as data};

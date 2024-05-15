@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,b as c}from"./app-CFIaTHNp.js";const n={},r=e("h1",{id:"这里是notebook-pc",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#这里是notebook-pc","aria-hidden":"true"},"#"),c(" 这里是notebook/PC")],-1),s=[r];function _(d,i){return t(),a("div",null,s)}const l=o(n,[["render",_],["__file","index.html.vue"]]);export{l as default};

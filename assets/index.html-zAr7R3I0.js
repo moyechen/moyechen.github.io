@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as n,a as e,b as o}from"./app-CFIaTHNp.js";const c={},r=e("h1",{id:"这里是python",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#这里是python","aria-hidden":"true"},"#"),o(" 这里是python")],-1),s=[r];function _(d,h){return a(),n("div",null,s)}const l=t(c,[["render",_],["__file","index.html.vue"]]);export{l as default};

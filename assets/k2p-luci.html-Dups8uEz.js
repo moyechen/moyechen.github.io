@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0e6ec2eb","path":"/notebook/k2p-luci.html","title":"k2p-luci","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"2022/6/1","slug":"_2022-6-1","link":"#_2022-6-1","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"notebook/k2p-luci.md"}');export{e as data};

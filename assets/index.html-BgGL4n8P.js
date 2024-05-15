@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ce20e166","path":"/video/","title":"这里是video","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"video/README.md"}');export{e as data};

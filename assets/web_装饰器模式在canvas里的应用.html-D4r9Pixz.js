@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6099f3b2","path":"/web/web_%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%E5%9C%A8canvas%E9%87%8C%E7%9A%84%E5%BA%94%E7%94%A8.html","title":"[web]装饰器模式在canvas里的应用","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"web/[web]装饰器模式在canvas里的应用.md"}');export{e as data};

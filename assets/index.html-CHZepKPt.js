@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as n,a as e,b as o}from"./app-CFIaTHNp.js";const c={},d=e("h1",{id:"这里是web-django",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#这里是web-django","aria-hidden":"true"},"#"),o(" 这里是web/django")],-1),r=[d];function s(_,i){return t(),n("div",null,r)}const l=a(c,[["render",s],["__file","index.html.vue"]]);export{l as default};

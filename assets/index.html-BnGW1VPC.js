@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e,b as c}from"./app-CFIaTHNp.js";const d={},n=e("h1",{id:"这里是video",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#这里是video","aria-hidden":"true"},"#"),c(" 这里是video")],-1),r=[n];function s(i,_){return a(),o("div",null,r)}const l=t(d,[["render",s],["__file","index.html.vue"]]);export{l as default};

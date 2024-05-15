@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,b as n}from"./app-CFIaTHNp.js";const c={},r=e("h1",{id:"这里是notebook-3d建模",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#这里是notebook-3d建模","aria-hidden":"true"},"#"),n(" 这里是notebook/3D建模")],-1),s=[r];function d(_,i){return t(),a("div",null,s)}const l=o(c,[["render",d],["__file","index.html.vue"]]);export{l as default};
